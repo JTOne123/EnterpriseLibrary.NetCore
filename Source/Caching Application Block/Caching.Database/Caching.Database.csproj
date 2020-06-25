@@ -17,7 +17,15 @@
     <Version>5.0.512.0</Version>
     <AssemblyVersion>5.0.505.0</AssemblyVersion>
     <FileVersion>5.0.512.0</FileVersion>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <ProjectReference Include="..\..\Data Access Application Block\Data\Data.csproj" />
